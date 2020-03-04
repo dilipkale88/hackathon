@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.pack.tracker.service.PackageTrackerServiceImpl;
 
 @RestController
-public class GreetingController {
+public class PackageController {
 	
 	private static final String template = "Hello, %s!";
 	PackageTrackerServiceImpl packageService = new PackageTrackerServiceImpl();
